@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Minha Página com Imagem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Minha Página Web com Imagem!</h1>
+        <img src="minha-imagem.jpg" alt="Descrição da Imagem" class="imagem-principal">
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre a Imagem</h2>
+            <p>Esta é uma imagem interessante que está sendo exibida na minha página.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Minha Página Web</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<style>
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #45a049;
+}
+
+/* Estilo básico para a página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.imagem-principal {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #fff;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+<script>
+document.querySelector('h1').addEventListener('click', () => {
+  alert('Você clicou no título!');
+});
